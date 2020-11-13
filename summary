@@ -1,0 +1,15 @@
+旅游网
+    1.项目初始化
+        1.1 完善index.html中的移动端适配：<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+                解决：用户在手机上随意放大缩小的问题
+
+        1.2 重置样式表  在入口文件引入reset.css文件，该reset.css文件存放在assets/style 文件夹下
+                解决：样式在不同手机上呈现效果不同的问题
+
+        1.3 border.css
+                解决：1像素问题，什么叫1像素问题， 1px在不同手机上所代表的含义可能不同
+
+        1.4 移动端300ms点击延迟的问题，当在移动端上使用click事件时，将会延迟300ms才会执行
+                解决：cnpm install fastclick --save-dev
+
+
