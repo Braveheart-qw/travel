@@ -14,6 +14,7 @@
             index_header,
         }
     }
+
 </script>
 
 <style scoped lang="scss">
